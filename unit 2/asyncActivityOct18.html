@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Page Title</title>
-<style>
+  <style>
   .divrules {
     background-color: aqua;
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     margin: 10px;
-    font-size: 30px; 
+    font-size: 20px; 
   }
   .container {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
+    
   }
-  #maincontent {
-    display: grid;
-    grid-template-columns: auto auto;
-  }
+  .containment {
+   display: grid;
+   grid-template-columns:auto auto auto auto auto
+   }
   </style>
 
 </head>
-<body class="container">
-<div class="divrules" style="width: 1200px;">1</div>
-<div id="maincontent"></div>
-<div class="divrules" style="width: 800px; height: 300px">2</div>
-<div class="divrules" style="width:800px; height: 300px">3</div>
+<body>
+<div class="divrules" style="width: 1150px; background-color: blueviolet;">Nav</div>
+<div class="container">
+<div class="divrules" style="width: 900px; height: 200px; background-color: darkgreen;">Main Content</div>
+<div class="divrules" style="width:200px; height: 200px; background-color: darkgoldenrod;">Advertisement</div>
 </div>
-<div class="divrules" style="width: 400px; height: 100px">4</div>
-<div class="divrules">5</div>
-<div class="divrules">6</div>
-<div class="divrules"style="width: 1200px;">7</div>
+<div class="containment">
+<div class="divrules" style="width: 400px; height: 200px; background-color: rosybrown;">Option 1</div>
+<div class="divrules" style="width: 400px; height: 200px; background-color: lightseagreen;">Option 2</div>
+<div class="divrules" style="width: 250px; height: 200px; background-color: indianred;">Option 3</div>
+</div>
+<div class="divrules"style="width: 1150px; background-color: ">footer</div>
 </body>
 </html>
