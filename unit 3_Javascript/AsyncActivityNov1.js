@@ -14,8 +14,19 @@
 
 
 "2."
- print('2 x 2 x 1000= 4000')
+ // keywords
+ // terminal
+ // console.log() function output
+ // variable
+ // data type
+// we need 3 numbers to get to 4000= 2* 2* 1000
+// multiply 3 variables
 
+var a= 2
+var b= 2
+var c= 1000
+
+console.log(a*b*c)  
  
  
  "3."
