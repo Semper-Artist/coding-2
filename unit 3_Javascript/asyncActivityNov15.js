@@ -11,6 +11,14 @@ console.log(userPassword == dbPassword)
 // the password is true. The person could safely enter the 
 // building.
 
+// 1. Correct Answer
+"logical operator"
+var name=''
+var password=''
+
+var securitySystemName=''
+var securitySystemPassword=''
+console.log(name == securitySystemName && password=== securitySystemPassword)
 
 // 2. The Arithmetic operator can help to keep track of both variables
 let EGCmachine = 10
@@ -25,12 +33,22 @@ console.log(oxytankoveracquired - oxytankneeded)
 // The terminal would share that they need to send back three oxytanks to keep 
 // their storage at the wanted 6.
 
+// 2. Correct Answer
+"comparison operator"
+
 // 3. The string operator would be used when users must be able to
 // capture user data and then send it to someone else.
-" user data sending: abcdefg"
+" user data sending: abcdefg" 
 
-// 4. 
-"= represents an assignment between two values, NOT equation."
-"&& expresses a logical and, pairing two or more things."
-"|| refers to a logical or, inserting another data, but not contrasting the initial data."
-"== double equal signs say that two values are equal to each other, or the same."
+// 3. Correct Answer
+"Assignment Operator- to take data and assign it to the reciever"
+
+// 4.  
+// = 
+'single equal sign- assignment'
+// && 
+'and symbols- logical'
+// || 
+'double line- logical or'
+// == 
+'double equal sign- comparison(equal to)'
