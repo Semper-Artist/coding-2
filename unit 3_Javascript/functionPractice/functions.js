@@ -16,11 +16,15 @@ console.log(name)
 // How do we write a function - function syntax
 // declare function
 function exampleFunction() {
-    alert("you are now conncected to the JS file.");
-    console.log('step 1.')
-    console.log('step 2.')
-    console.log('step 3.')
-}
+   console.log('the function script is connected.')
+    }
 
 // call function
-exampleFunction();
+exampleFunction()
+let accountBalance = 100
+
+function depositMoney(x){
+    console.log('money has been added successfully.')
+    console.log(accountBalance + x)
+}
+
