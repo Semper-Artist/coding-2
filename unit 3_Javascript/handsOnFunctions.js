@@ -30,7 +30,7 @@ function checkTVInventory(tvs){
     }
 }
 
-checkTVInventory(50)
+// checkTVInventory(50)
 
 
 
@@ -43,4 +43,46 @@ checkTVInventory(50)
 
 // Activity
 
-// 1. 
+// 1. Create a function that will take a number that
+// is passed into the functions parameters and convert
+// the number into minutes. For example, a value of 2
+// should return to 120 minutes. a value of 3 should
+// return 180 minutes, etc.
+
+function doctorPay(hour){
+       if(hour <= 24 ){
+        console.log("You get normal pay day.");
+      } else if (hour > 8 && hour < 16) {
+        console.log("You qualify for overtime.");
+      } else if (hour > 16 && hour < 24) {
+        console.log("Your working way too hard.");
+      } else if (hour > 24) {
+        console.log("You need to go home.");
+      }
+   }
+    
+doctorPay(25)
+
+
+
+
+function discount(item){
+    if(itemPrice > 10.00){
+        console.log(" you qualify for a 5% discount");
+    }
+    else if(itemPrice > 20.00){
+        console.log("you qualify for a 10% discount.");
+    } else if(itemPrice > 100.0){
+        console.log("you qualify for a 25% discount.");
+    } else {
+      console.log("this item does not qualify for discount.");
+    }
+
+}
+
+
+
+
+
+
+
