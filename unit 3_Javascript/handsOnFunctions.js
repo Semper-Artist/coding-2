@@ -30,7 +30,7 @@ function checkTVInventory(tvs){
     }
 }
 
-// checkTVInventory(50)
+checkTVInventory(50)
 
 
 
@@ -61,7 +61,7 @@ function doctorPay(hour){
       }
    }
     
-doctorPay(25)
+// doctorPay(25)
 
 
 
