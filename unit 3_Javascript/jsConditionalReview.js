@@ -29,3 +29,15 @@ function gradeBook(grade) {
     }
 }
 gradeBook("90")
+
+// nested conditions are functions inside
+// of functions. this gives us more power
+// to make unique outsomes.
+function passwordRetrieval(email, password, sQuestion){
+if(email == 'will@gmail.com'){
+    console.log('correct')
+    console.log("please provide a password?")
+  }else{
+    console.log('sorry, this email does not exist.')
+  }
+}
