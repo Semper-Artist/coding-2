@@ -61,7 +61,7 @@ function doctorPay(hour){
       }
    }
     
-// doctorPay(25)
+ doctorPay(25)
 
 
 
