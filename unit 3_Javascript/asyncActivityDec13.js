@@ -1,16 +1,18 @@
 // 1.
 
 function negPos(Num){
-    if(Num == 8 ){
-     console.log("This number is positive.");
-   } else if (Num == -14) {
-     console.log("This number is negative.");
+    if(Num > 0 ){
+     console.log("This number is positive: " + Num);
+   } else if (Num < 0) {
+     console.log("This number is negative: " + Num);
    } else if (Num == 0) {
-     console.log("This is zero.");
+     console.log("This is zero: " + Num);
+   } else{
+    console.log('Sorry, an error occured. Check your code.')
    }
 }
  
-// negPos(8)
+// negPos(40)
 
 // 2. 
 
@@ -25,8 +27,8 @@ function ageToPrice(age){
      console.log("You are between the ages of 17 - 20, therefore your ticket price is $15.00.");
    } 
     else if (age > 20 && age < 65) {
-     console.log("You are between the ages of 21-65, therefore yout ticket price is $5.00.");
+     console.log("You are between the ages of 21-65, therefore your ticket price is $5.00.");
    }
 }
 
-ageToPrice(35)
+ // ageToPrice(35)
