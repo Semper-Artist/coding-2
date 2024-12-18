@@ -32,3 +32,47 @@ function ageToPrice(age){
 }
 
  // ageToPrice(35)
+
+
+ // 3.
+
+ // KEY POINTS
+ // Determine the price of the item based on the user's membership
+ // superShopper = 10% discount on their items
+ // megaShopper = 15% discount on their items
+ // ultraShopper = 20% discount on their items
+ // we need an item name, item price, membership and a message
+
+ function discountFunction(membership, itemPrice){
+console.log("Testing. Function works");
+if(membership === "superShopper"){
+  console.log("you are a super shopper. Here is your 10 percent discount!");
+  
+  var discountAmount = itemPrice *.1;
+  console.log(discountAmount);
+  var total = itemPrice - discountAmount;
+  console.log(total);
+
+} else if(membership == "megaShopper"){
+  console.log("you are a mega shopper. Here is your 15 percent discount!");
+
+  var discountAmount = itemPrice *.15;
+  console.log(discountAmount);
+  var total = itemPrice - discountAmount;
+  console.log(total);
+
+} else if(membership === "ultraShopper"){
+  console.log("you are a ultra shopper. Here is your 20 percent discount!");
+
+  var discountAmount = itemPrice *.2;
+  console.log(discountAmount);
+  var total = itemPrice - discountAmount;
+  console.log(total);
+
+} else{
+  console.log("Error, Sorry this membership doesn't exsit.")
+}
+
+}
+
+ discountFunction('megaShopper',200);
