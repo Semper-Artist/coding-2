@@ -41,31 +41,38 @@ function incomeAfterTax(income,tax){
     if(income === "0.00 && 12000.00"){
       console.log("You are taxed by 13 percent of your income.");
       
-      var incomeAfterTax = income *.13;
-      console.log(discountAmount);
-      var total = itemPrice - discountAmount;
+      var incomeAfterTax = tax *.13;
+      console.log(incomeAfterTax);
+      var total = tax - incomeAfterTax;
       console.log(total);
     
-    } else if(membership == "megaShopper"){
-      console.log("you are a mega shopper. Here is your 15 percent discount!");
+    } else if(income == "12001.00 && 50000.00"){
+      console.log("You are taxed by 15 percent of your income.");
     
-      var discountAmount = itemPrice *.15;
-      console.log(discountAmount);
-      var total = itemPrice - discountAmount;
+      var incomeAfterTax = tax *.15;
+      console.log(incomeAfterTax);
+      var total = tax - incomeAfterTax;
       console.log(total);
     
-    } else if(membership === "ultraShopper"){
-      console.log("you are a ultra shopper. Here is your 20 percent discount!");
+    } else if(income == "50001.00 && 103000.00"){
+      console.log("You are taxed for 25 percent of your income.");
     
-      var discountAmount = itemPrice *.2;
-      console.log(discountAmount);
-      var total = itemPrice - discountAmount;
+      var incomeAfterTax = tax *.25;
+      console.log(incomeAfterTax);
+      var total = tax - incomeAfterTax;
       console.log(total);
     
-    } else{
-      console.log("Error, Sorry this membership doesn't exsit.")
+    } else if(income = "103001.00 && 198000.00"){
+      console.log("You are taxed for 26 percent of your income.");
+      var incomeAfterTax = tax *.26;
+      console.log(incomeAfterTax);
+      var total = tax - incomeAfterTax;
+      console.log(total);
     }
     
     }
     
-     discountFunction('megaShopper',200);
+     incomeAfterTax('12001.00 && 50000.00',30000);
+
+     // 10.
+     // DNF
