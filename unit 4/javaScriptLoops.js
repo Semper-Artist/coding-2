@@ -25,3 +25,26 @@ function educationTitle(gradeLevel){
     
 }
 educationTitle();
+
+// [] indicates a list
+
+// A list is a unique grouping data type that allows
+// use to collect and organize data in one variable.
+// lists can contain virtually all data types simultaniously
+
+var GroceryList=['name',10, true]
+
+var student1 = ["Will", 90,"football"]
+var student2 = ["Jaydin",92,"basketball"]
+var student3 = ["marquese",80, "unknown"]
+
+var codingClass6Period = [student1,student2,student3,'Will', 'Jaydin','Haleem', 'etc..']
+
+console.log(codingClass6Period)
+
+// find the item in the list at index 3, and 1
+var groceryList = ['apple','water','milk','paper towels','dish soap']
+
+// Index number starts at 0
+// Index 3 represents dish soap.
+// Index 1 represents water.
