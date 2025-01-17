@@ -16,7 +16,7 @@
 // what you want to add
 
 // LIFO (Last in, First Out)
-var bookBag = ['pencils', 'pens', 'notebooks', 'fiction book', 'sketch book']
+var bookBag = ['pencils', 'pens', 'notebooks', 'fiction book',]
 bookBag.push('sketch book')
 console.log(bookBag)
 
