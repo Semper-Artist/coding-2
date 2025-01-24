@@ -19,7 +19,6 @@
   //  console.log('excellent you are using JS')
 // }
 
-
 function trafficLight(){
 var lightColors = ['red','yellow','green'];
    var  timer = 0;
